@@ -129,7 +129,7 @@ transition: slide-left
   <div class="relative h-full rounded-2xl overflow-hidden shadow-xl border border-white/60 bg-white/50">
   <img
       v-show="$clicks <= 1"
-      src="./NUUEE.jpg"
+      src="./public/NUUEE.jpg"
       alt="電子工程系"
       class="absolute inset-0 h-full w-full object-cover"
     />
@@ -223,7 +223,7 @@ transition: slide-up
   <div class="relative h-full rounded-2xl overflow-hidden shadow-xl border border-white/60 bg-white/50">
     <img
       v-show="$clicks === 0"
-      src="./TRANSFER.jpg"
+      src="./public/TRANSFER.jpg"
       alt="轉學考筆記"
       class="absolute inset-0 h-full w-full object-cover"
     />
@@ -290,13 +290,13 @@ transition: slide-left
   <div class="relative h-full rounded-2xl overflow-hidden shadow-xl border border-white/60 bg-white/50">
   <img
     v-show="$clicks === 0"
-    src="./YOUTUBER.png"
+    src="./public/YOUTUBER.png"
     alt="影片剪輯"
     class="absolute inset-0 h-full w-full object-cover"
   />
   <img
     v-show="$clicks === 1"
-    src="./FJU_WEB.jpg"
+    src="./public/FJU_WEB.jpg"
     alt="通識課"
     class="absolute inset-0 h-full w-full object-cover"
   />
@@ -308,7 +308,7 @@ transition: slide-left
   />
   <img
     v-show="$clicks === 3"
-    src="./EXPLORE_1.jpg"
+    src="./public/EXPLORE_1.jpg"
     alt="青少年發展署"
     class="absolute inset-0 h-full w-full object-cover"
   />
