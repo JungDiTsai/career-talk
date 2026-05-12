@@ -1,0 +1,19 @@
+node_modules
+.DS_Store
+dist
+*.local
+.vite-inspect
+.remote-assets
+components.d.ts
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+public/*.mp4
+public/*.avi
+public/*.mov
+public/*.mkv
