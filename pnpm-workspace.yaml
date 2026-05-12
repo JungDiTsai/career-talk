@@ -1,1 +1,4 @@
+packages:
+  - '.'
+
 shamefullyHoist: true
