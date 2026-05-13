@@ -53,7 +53,7 @@ duration: 90min
     </div>
   </div>
   <div class="h-full flex items-center justify-center overflow-hidden">
-    <img src="./public/AVATAR.JPG" class="rounded-2xl shadow-2xl max-h-full h-auto w-auto object-contain" alt="蔡仲迪" />
+    <img src="./images/AVATAR.JPG" class="rounded-2xl shadow-2xl max-h-full h-auto w-auto object-contain" alt="蔡仲迪" />
   </div>
 </div>
 
@@ -71,7 +71,7 @@ duration: 90min
 ---
 transition: fade-out
 layout: image-right
-image: ./public/A_SUN.jpg
+image: ./images/A_SUN.jpg
 ---
 
 # 從《陽光普照》開始：我們如何被期待推著走
@@ -133,31 +133,31 @@ transition: slide-left
   <div class="relative h-full rounded-2xl overflow-hidden shadow-xl border border-white/60 bg-white/50">
   <img
       v-show="$clicks <= 1"
-      src="./public/NUUEE.jpg"
+      src="./images/NUUEE.jpg"
       alt="電子工程系"
       class="absolute inset-0 h-full w-full object-cover"
     />
     <img
       v-show="$clicks === 2"
-      src="./public/CONSTRUCTION_PLANT.jpg"
+      src="./images/CONSTRUCTION_PLANT.jpg"
       alt="在工地工作的時期"
       class="absolute inset-0 h-full w-full object-cover"
     />
     <img
       v-show="$clicks === 3"
-      src="./public/RESTAURANT.jpg"
+      src="./images/RESTAURANT.jpg"
       alt="餐廳"
       class="absolute inset-0 h-full w-full object-cover"
     />
     <img
       v-show="$clicks === 4"
-      src="./public/CONVENIENCE_STORE.jpg"
+      src="./images/CONVENIENCE_STORE.jpg"
       alt="便利商店"
       class="absolute inset-0 h-full w-full object-cover"
     />
     <img
       v-show="$clicks >= 5"
-      src="./public/TUTOR.jpg"
+      src="./images/TUTOR.jpg"
       alt="家教"
       class="absolute inset-0 h-full w-full object-cover"
     />
@@ -226,31 +226,31 @@ transition: slide-up
   <div class="relative h-full rounded-2xl overflow-hidden shadow-xl border border-white/60 bg-white/50">
     <img
       v-show="$clicks === 0"
-      src="./public/TRANSFER.jpg"
+      src="./images/TRANSFER.jpg"
       alt="轉學考筆記"
       class="absolute inset-0 h-full w-full object-cover"
     />
     <img
       v-show="$clicks === 1"
-      src="./public/JU_SISTER.jpg"
+      src="./images/JU_SISTER.jpg"
       alt="小珠姊"
       class="absolute inset-0 h-full w-full object-contain"
     />
     <img
       v-show="$clicks === 2"
-      src="./public/DINGALAW.jpg"
+      src="./images/DINGALAW.jpg"
       alt="頂阿陋"
       class="absolute inset-0 h-full w-full object-contain"
     />
     <img
       v-show="$clicks === 3"
-      src="./public/DONG_SISTER.jpg"
+      src="./images/DONG_SISTER.jpg"
       alt="董姊"
       class="absolute inset-0 h-full w-full object-contain"
     />
     <img
       v-show="$clicks >= 4"
-      src="./public/LIN_MAMA.jpg"
+      src="./images/LIN_MAMA.jpg"
       alt="林媽媽"
       class="absolute inset-0 h-full w-full object-contain"
     />
@@ -302,31 +302,31 @@ transition: slide-left
   <div class="relative h-full rounded-2xl overflow-hidden shadow-xl border border-white/60 bg-white/50">
   <img
     v-show="$clicks === 0"
-    src="./public/YOUTUBER.png"
+    src="./images/YOUTUBER.png"
     alt="影片剪輯"
     class="absolute inset-0 h-full w-full object-cover"
   />
   <img
     v-show="$clicks === 1"
-    src="./public/EXPLORE_1.jpg"
+    src="./images/EXPLORE_1.jpg"
     alt="青少年發展署"
     class="absolute inset-0 h-full w-full object-cover"
   />
   <img
     v-show="$clicks === 2"
-    src="./public/EXPLOER_2.jpeg"
+    src="./images/EXPLOER_2.jpeg"
     alt="暑期工讀"
     class="absolute inset-0 h-full w-full object-cover"
   />
   <img
     v-show="$clicks === 3"
-    src="./public/FJU_WEB.jpg"
+    src="./images/FJU_WEB.jpg"
     alt="通識課"
     class="absolute inset-0 h-full w-full object-cover"
   />
   <img
     v-show="$clicks >= 4"
-    src="./public/CONSAULTANT.jpg"
+    src="./images/CONSAULTANT.jpg"
     alt="學生輔導中心-工讀生"
     class="absolute inset-0 h-full w-full object-contain"
   />
@@ -440,7 +440,7 @@ Click
 ---
 transition: slide-left
 layout: image-right
-image: ./public/ZEN_AN_2.jpg
+image: ./images/ZEN_AN_2.jpg
 ---
 
 # Bug #2 畢業之後的第一份工作
@@ -518,7 +518,7 @@ Click
 ---
 transition: slide-up
 layout: image-left
-image: ./public/DIIGGING.jpg
+image: ./images/DIIGGING.jpg
 ---
 
 # 休息與沉澱
@@ -585,7 +585,7 @@ Click
 ---
 transition: fade-out
 layout: image-right
-image: ./public/III.jpg
+image: ./images/III.jpg
 ---
 
 # Feature #2 職業轉換
@@ -646,7 +646,7 @@ Click
 ---
 transition: fade-out
 layout: image-right
-image: ./public/III.jpg
+image: ./images/III.jpg
 ---
 
 # 轉職不是浪漫故事
@@ -1559,7 +1559,7 @@ transition: slide-up
 ---
 transition: slide-up
 layout: image-right
-image: ./public/QA_SLIDO.png
+image: ./images/QA_SLIDO.png
 ---
 
 # Q & A
